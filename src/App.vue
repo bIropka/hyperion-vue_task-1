@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="app">
         <project-list :projectId="projectId" @projectClicked="changeId"></project-list>
         <scatter-plot :projectId="projectId"></scatter-plot>
     </div>
