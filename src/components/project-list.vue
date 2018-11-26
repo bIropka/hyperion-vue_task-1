@@ -15,7 +15,7 @@
         methods: {
             getData: function () {
                 const request = new XMLHttpRequest();
-                request.open('GET', './src/assets/data.json', false);
+                request.open('GET', 'data.json', false);
                 request.send();
                 if (request.status !== 200) {
                     console.log(request.status + ' : ' + request.statusText);
