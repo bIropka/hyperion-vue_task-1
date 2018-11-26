@@ -1,6 +1,8 @@
 <template>
-    <project-list :projectId="projectId" @projectClicked="changeId"></project-list>
-    <scatter-plot :projectId="projectId"></scatter-plot>
+    <div>
+        <project-list :projectId="projectId" @projectClicked="changeId"></project-list>
+        <scatter-plot :projectId="projectId"></scatter-plot>
+    </div>
 </template>
 
 <script>
