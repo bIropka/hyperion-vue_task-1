@@ -1,5 +1,5 @@
 <template>
-    <div>Chosen project name: <span v-if='projectId'>{{projectId}}</span></div>
+    <div>Chosen project id: <span v-if='projectId'>{{projectId}}</span></div>
 </template>
 
 <script>
