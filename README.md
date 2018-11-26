@@ -1,7 +1,5 @@
 # hyperion-vue_task-1
 
-> task_1
-
 ## Build Setup
 
 ``` bash
