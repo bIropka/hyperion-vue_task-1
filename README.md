@@ -1,6 +1,9 @@
 # hyperion-vue_task-1
 
-## Build Setup
+### Demo
+http://test.stetsiura.pro/projects/hyperion-vue_task-1/
+
+### Build Setup
 
 ``` bash
 # install dependencies
