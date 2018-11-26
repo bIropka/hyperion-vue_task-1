@@ -1,6 +1,6 @@
 <template>
     <div>
-        <project-list :projectId="projectId" @projectClicked="showProject"></project-list>
+        <project-list :projectId="projectId" @projectClicked="changeId"></project-list>
         <scatter-plot :projectId="projectId"></scatter-plot>
     </div>
 </template>
@@ -20,7 +20,7 @@
             }
         },
         methods: {
-            showProject: function(id) {
+            changeId: function(id) {
                 this.projectId = id
             }
         }
